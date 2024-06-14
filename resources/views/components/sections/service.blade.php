@@ -10,7 +10,7 @@
         <div class="row">
             <div class="col-lg-4 single-service">
                 <a href="{{ route('measurement') }}">
-                <span class="lnr lnr-car"></span>
+                <span class="lnr lnr-pencil"></span>
                 <h4>{{__('messages.Չափագրում')}}</h4>
                 <p>
                     Չափագրման ծառայությունը իրականացվում է "ԴՈՌՄԵՆ" ընկերության տեխնիկական մասնագետի կողմից հաճախորդի (գնորդի) ցանկությամբ։
