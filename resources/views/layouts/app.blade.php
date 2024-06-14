@@ -65,7 +65,6 @@
 <script src="{{ asset('js/main.js') }}"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 </body>
 </html>
