@@ -26,12 +26,12 @@
         <div class="row">
             <div class="col-lg-4 single-service">
                 <span class="lnr lnr-car"></span>
-                <a href="{{ route('measurement') }}" target="_blank"><h4>{{__('messages.Չափագրում')}}</h4></a>
+                <a href="{{ route('measurement') }}"><h4>{{__('messages.Չափագրում')}}</h4></a>
                 Չափագրման ծառայությունը իրականացվում է "ԴՈՌՄԵՆ" ընկերության տեխնիկական մասնագետի կողմից հաճախորդի (գնորդի) ցանկությամբ։
             </div>
             <div class="col-lg-4 single-service">
                 <span class="lnr lnr-briefcase"></span>
-                <a href="{{ route('consultation') }}" target="_blank"><h4>{{__('messages.Խորհրդատվություն')}}</h4></a>
+                <a href="{{ route('consultation') }}"><h4>{{__('messages.Խորհրդատվություն')}}</h4></a>
                 Խորհրդատվությունը ծառայություն է որը գնորդին տալիս է հնարավորություն ստանալ տեխնիկական մասնագետից ամբողջական տեղեկություն իրեն անհրաժեշտ
                 ապրանքի վերաբերյալ:
 {{--                <p>--}}
