@@ -9,20 +9,26 @@
         </div>
         <div class="row">
             <div class="col-lg-4 single-service">
+                <a href="{{ route('measurement') }}">
                 <span class="lnr lnr-car"></span>
-                <a href="{{ route('measurement') }}"><h4>{{__('messages.Չափագրում')}}</h4></a>
+                <h4>{{__('messages.Չափագրում')}}</h4>
                 <p>
                     Չափագրման ծառայությունը իրականացվում է "ԴՈՌՄԵՆ" ընկերության տեխնիկական մասնագետի կողմից հաճախորդի (գնորդի) ցանկությամբ։
                 </p>
+                </a>
             </div>
+
             <div class="col-lg-4 single-service">
+                <a href="{{ route('consultation') }}">
                 <span class="lnr lnr-briefcase"></span>
-                <a href="{{ route('consultation') }}"><h4>{{__('messages.Խորհրդատվություն')}}</h4></a>
+                <h4>{{__('messages.Խորհրդատվություն')}}</h4>
                 <p>
                    Խորհրդատվությունը ծառայություն է որը գնորդին տալիս է հնարավորություն ստանալ տեխնիկական մասնագետից ամբողջական տեղեկություն իրեն անհրաժեշտ
 ապրանքի վերաբերյալ
                 </p>
+            </a>
             </div>
+
 {{--            <div class="col-lg-4 single-service">--}}
 {{--                <span class="lnr lnr-bus"></span>--}}
 {{--                <a href="#"><h4>Event Transportation</h4></a>--}}
