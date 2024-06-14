@@ -95,11 +95,8 @@
             </div>
             <p class="mt-40 mx-auto footer-text col-lg-12">
 
-                Copyright ©
-                2024 -
-{{--                <script type="text/javascript" async="" src="{{ asset('js/analytics.js.download') }}"></script>--}}
-                <script>document.write(new Date().getFullYear());</script>
-                 All rights reserved |  <a href="https://doorman.am/" target="_blank">Doorman</a>
+                Copyright © 2024 - <script>document.write(new Date().getFullYear() !== 2024 ? new Date().getFullYear() : '');</script>
+                All rights reserved | <a href="https://doorman.am/">Doorman</a>
 
             </p>
         </div>
