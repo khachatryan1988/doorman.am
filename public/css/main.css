@@ -3473,5 +3473,13 @@ body.mobile-nav-active #mobile-nav-toggle {
     bottom: 0px;
     width: 100%;
 }
+.custom-list {
+    list-style-type: disc; /* Use disc for filled circles */
+    padding-left: 20px; /* Adjust left padding for space between bullet and text */
+}
+
+.custom-list li {
+    margin-bottom: 8px; /* Adjust spacing between list items */
+}
 
 /*-------- end footer Area -------------*/
