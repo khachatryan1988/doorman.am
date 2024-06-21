@@ -4,7 +4,7 @@
 return [
       'locales' => [
           'hy',
-          'eng',
-          'rus'
+          'en',
+          'ru'
       ]
 ];

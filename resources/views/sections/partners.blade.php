@@ -1,7 +1,7 @@
 <section class="reviews-area" style="background-color: rgba(234,238,241,0.76)">
     <div class="container">
         <div class="row section-title" >
-            <h1>{{__('messages.Գործընկերներ')}}</h1>
+            <h1>{{__('messages.partners')}}</h1>
 {{--            <p>Who are in extremely love with eco friendly system.</p>--}}
         </div>
         <div class="row">

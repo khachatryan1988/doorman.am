@@ -1,10 +1,10 @@
 @include('layouts.header')
 @include('layouts.css')
-<title>{{__('messages.Մեր Աշխատանքները')}}</title>
+<title>{{__('messages.nav.galery')}}</title>
 <section class="image-gallery-area section-gap">
     <div class="container">
         <div class="row section-title">
-            <h1>{{__('messages.Մեր Աշխատանքները')}}</h1>
+            <h1>{{__('messages.nav.galery')}}</h1>
         </div>
         <div class="row">
             <div class="col-lg-4 single-gallery">

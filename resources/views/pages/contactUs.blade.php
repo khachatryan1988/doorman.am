@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, initial-scale=1.0">
-    <title>{{ __('messages.Հետադարձ կապ') }}</title>
+    <title>{{ __('messages.nav.feadback') }}</title>
 
 </head>
 
@@ -20,11 +20,11 @@
             <div class="about-content col-lg-12" style="margin-bottom: 95px; padding-top: 74px;">
                 <!-- Page Title -->
                 <h1 style="margin-bottom: 50px; padding-top: 115px;" class="text-white">
-                    {{ __('messages.Հետադարձ կապ') }}
+                    {{ __('messages.nav.feadback') }}
                 </h1>
                 <!-- Navigation Link -->
                 <p class="text-white link-nav">
-                    <a href="/">{{ __('messages.Գլխավոր էջ') }}</a>
+                    <a href="/">{{ __('messages.nav.main') }}</a>
                 </p>
             </div>
         </div>
