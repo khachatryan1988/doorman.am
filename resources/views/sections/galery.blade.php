@@ -4,7 +4,7 @@
 <section class="image-gallery-area section-gap" style="background-color: #eaeef1">
     <div class="container">
         <div class="row section-title">
-            <h1>{{__('messages.Մեր Աշխատանքները')}}</h1>
+            <h1>{{__('messages.nav.galery')}}</h1>
 {{--            <p>Who are in extremely love with eco friendly system.</p>--}}
         </div>
         <div class="row">

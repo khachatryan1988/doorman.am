@@ -7,14 +7,14 @@
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, initial-scale=1.0">
-    <title>{{__('messages.Խորհրդատվություն')}}</title>
+    <title>{{__('messages.consultation')}}</title>
 </head>
 
 <body>
 
 
 <section class="about">
-    <h1>{{__('messages.Խորհրդատվություն')}}</h1>
+    <h1>{{__('messages.consultation')}}</h1>
     <p style="font-weight: bold">
 
     </p>
@@ -39,7 +39,7 @@
 </section>
 
 <section class="team">
-    <h2>{{__('messages.Մեր Աշխատանքներից')}}</h2>
+    <h2>{{__('messages.fromourworks')}}</h2>
     <div class="team-cards">
 
 

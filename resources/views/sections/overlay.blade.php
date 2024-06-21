@@ -1,3 +1,6 @@
+{{--@extends('layouts.app')--}}
+
+{{--@section('overlay')--}}
 <section class="banner-area relative" id="home">
     <div class="swiper-container">
         <div class="swiper-wrapper">
@@ -6,11 +9,11 @@
                 <div class="container">
                     <div class="row fullscreen d-flex align-items-center justify-content-between">
                         <div class="banner-content col-lg-6 col-md-6">
-                            <h6 class="text-white">{{__('messages.Հարցերի դեպքում զանգահարեք')}}</h6>
+                            <h6 class="text-white">{{__('messages.forquestions')}}</h6>
                             <h1 class="text-uppercase" style="margin-bottom: 15px;">
                                 <a href="tel:{{ config('app.contacts.phone_number') }}">{{ config('app.contacts.phone_number') }}</a>
                             </h1>
-                            <a href="/contactUs" class="primary-btn text-uppercase">{{__('messages.Գրեք Մեզ')}}</a>
+                            <a href="/contactUs" class="primary-btn text-uppercase">{{__('messages.writeus')}}</a>
                         </div>
                     </div>
                 </div>
@@ -20,11 +23,11 @@
                 <div class="container">
                     <div class="row fullscreen d-flex align-items-center justify-content-between">
                         <div class="banner-content col-lg-6 col-md-6">
-                            <h6 class="text-white">{{__('messages.Հարցերի դեպքում զանգահարեք')}}</h6>
+                            <h6 class="text-white">{{__('messages.forquestions')}}</h6>
                             <h1 class="text-uppercase" style="margin-bottom: 15px;">
                                 <a href="tel:{{ config('app.contacts.phone_number') }}">{{ config('app.contacts.phone_number') }}</a>
                             </h1>
-                            <a href="/contactUs" class="primary-btn text-uppercase">{{__('messages.Գրեք Մեզ')}}</a>
+                            <a href="/contactUs" class="primary-btn text-uppercase">{{__('messages.writeus')}}</a>
                         </div>
                     </div>
                 </div>
@@ -34,11 +37,11 @@
                 <div class="container">
                     <div class="row fullscreen d-flex align-items-center justify-content-between">
                         <div class="banner-content col-lg-6 col-md-6">
-                            <h6 class="text-white">{{__('messages.Հարցերի դեպքում զանգահարեք')}}</h6>
+                            <h6 class="text-white">{{__('messages.forquestions')}}</h6>
                             <h1 class="text-uppercase" style="margin-bottom: 15px;">
                                 <a href="tel:{{ config('app.contacts.phone_number') }}">{{ config('app.contacts.phone_number') }}</a>
                             </h1>
-                            <a href="/contactUs" class="primary-btn text-uppercase">{{__('messages.Գրեք Մեզ')}}</a>
+                            <a href="/contactUs" class="primary-btn text-uppercase">{{__('messages.writeus')}}</a>
                         </div>
                     </div>
                 </div>
@@ -87,3 +90,4 @@
         },
     });
 </script>
+{{--@endsection--}}

@@ -8,9 +8,9 @@
         <div class="row d-flex align-items-center justify-content-center">
             <div class="about-content col-lg-12">
                 <h1 class="text-white">
-                    <h1>{{__('messages.Ծառայություններ')}}</h1>
+                    <h1>{{__('messages.nav.service')}}</h1>
                 </h1>
-                <p class="text-white link-nav"><a href="/">{{__('messages.Գլխավոր էջ')}}</a> <span class="lnr lnr-arrow-right"></span> <a href="{{ route('service') }}"> {{__('messages.Ծառայություններ')}}</a></p>
+                <p class="text-white link-nav"><a href="/">{{__('messages.nav.main')}}</a> <span class="lnr lnr-arrow-right"></span> <a href="{{ route('service') }}"> {{__('messages.nav.service')}}</a></p>
             </div>
         </div>
     </div>
@@ -20,21 +20,21 @@
 <section class="services-area section-gap" style="margin-bottom: 83px;">
     <div class="container">
         <div class="row section-title">
-            <h1 style="margin-bottom: 44px;">{{__('messages.Ինչ ծառայություններ ենք մենք առաջարկում մեր հաճախորդներին')}}</h1>
+            <h1 style="margin-bottom: 44px;">{{__('messages.ourservices')}}</h1>
 {{--            <p>Who are in extremely love with eco friendly system.</p>--}}
         </div>
         <div class="row">
             <div class="col-lg-4 single-service">
                 <a href="{{ route('measurement') }}">
                 <span class="lnr lnr-pencil"></span>
-                <h4>{{__('messages.Չափագրում')}}</h4>
+                <h4>{{__('messages.measurement')}}</h4>
                 Չափագրման ծառայությունը իրականացվում է "ԴՈՌՄԵՆ" ընկերության տեխնիկական մասնագետի կողմից հաճախորդի (գնորդի) ցանկությամբ։
                 </a>
             </div>
             <div class="col-lg-4 single-service">
                 <a href="{{ route('consultation') }}">
                 <span class="lnr lnr-briefcase"></span>
-                <h4>{{__('messages.Խորհրդատվություն')}}</h4>
+                <h4>{{__('messages.consultation')}}</h4>
                 Խորհրդատվությունը ծառայություն է որը գնորդին տալիս է հնարավորություն ստանալ տեխնիկական մասնագետից ամբողջական տեղեկություն իրեն անհրաժեշտ
                 ապրանքի վերաբերյալ:
 {{--                <p>--}}

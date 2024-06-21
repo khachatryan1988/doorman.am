@@ -9,7 +9,7 @@
           content="width=device-width, initial-scale=1.0">
     {{--    <link rel="stylesheet"--}}
     {{--         href="{{ asset('css/about.css') }}">--}}
-    <title>{{__('messages.Դարպասի Սպասարկում')}}</title>
+    <title>{{__('messages.gateMaintenance')}}</title>
 </head>
 
 <body>
@@ -37,7 +37,7 @@
 {{--</header>--}}
 
 <section class="about">
-    <h1>{{__('messages.Դարպասի Սպասարկում')}}</h1>
+    <h1>{{__('messages.gateMaintenance')}}</h1>
     <p style="font-weight: bold">
         GeeksforGeeks is a leading platform...
     </p>

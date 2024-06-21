@@ -1,3 +1,4 @@
+
 @include('layouts.header')
 @include('layouts.css')
     <!DOCTYPE html>
@@ -5,13 +6,13 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 {{--    <link rel="stylesheet"--}}
 {{--         href="{{ asset('css/about.css') }}">--}}
-    <title>{{__('messages.Մեր Մասին')}}</title>
-    <link rel="icon" href="{{ asset('favicon.png') }}" type="image/x-icon">
-    <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('apple-touch-icon.png') }}">
+    <title>{{__('messages.nav.about')}}</title>
+
+{{--    <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('apple-touch-icon.png') }}">--}}
 </head>
 
 <body>
@@ -39,7 +40,7 @@
 {{--</header>--}}
 
 <section class="about">
-    <h1>{{__('messages.Մեր Մասին')}}</h1>
+    <h1>{{__('messages.nav.about')}}</h1>
     <p style="font-weight: bold">
 {{--        GeeksforGeeks is a leading platform...--}}
     </p>
@@ -79,7 +80,7 @@
 </section>
 
 <section class="team">
-    <h2>{{__('messages.Մեր Աշխատանքներից')}}</h2>
+    <h2>{{__('messages.fromourworks')}}</h2>
     <div class="team-cards">
 
         <!-- Cards here -->

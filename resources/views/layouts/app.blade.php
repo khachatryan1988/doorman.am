@@ -8,33 +8,50 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="{{ asset('doorman.ico') }}" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+    <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
     <link rel="shortcut icon" href="https://preview.colorlib.com/theme/taxi/img/fav.png">
     <link rel="stylesheet" href="{{ asset('css/swiper-bundle.min.css') }}">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Bootstrap JavaScript and jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.6/umd/popper.min.js"></script>
 
     <meta name="author" content="colorlib">
 
     <meta name="description" content="">
 
     <meta name="keywords" content="">
-    <title>{{__('messages.Դոռման')}}</title>
-    @stack('head')
-    @include('layouts.css')
-
+    <title>{{__('messages.title')}}</title>
+    <style>
+        @include('layouts.css')
+    </style>
+    <script>
+        @include('layouts.script')
+    </script>
 </head>
 <body style="display: block;">
 <link rel="stylesheet" href="{{ asset('css/styles.css') }}">
 <button type="button" id="mobile-nav-toggle"><i class="lnr lnr-menu"></i></button>
+<header>
+    @include('layouts.header')
+{{--    @yield('overlay')--}}
+</header>
 
-@include('layouts.header')
-@include('components.sections.overlay')
-{{--@include('components.sections.getDatails')--}}
-@include('components.sections.service')
-{{--@yield('service')--}}
-@include('components.sections.galery')
-{{--@include('components.sections.reviews')--}}
-{{--@include('components.sections.support')--}}
-@include('components.sections.partners')
-{{--@include('components.sections.aboutUs')--}}
+
+
+<main>
+    @include('sections.overlay')
+    {{--@include('components.sections.getDatails')--}}
+    @include('sections.service')
+    {{--@yield('service')--}}
+    @include('sections.galery')
+    {{--@include('components.sections.reviews')--}}
+    {{--@include('components.sections.support')--}}
+    @include('sections.partners')
+    {{--@include('components.sections.aboutUs')--}}
+</main>
+
+
 
 
 <div id="mobile-body-overly"></div>

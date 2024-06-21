@@ -7,13 +7,13 @@
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, initial-scale=1.0">
-    <title>{{__('messages.Չափագրում')}}</title>
+    <title>{{__('messages.measurement')}}</title>
 </head>
 
 <body>
 
 <section class="about">
-    <h1>{{__('messages.Չափագրում')}}</h1>
+    <h1>{{__('messages.measurement')}}</h1>
     <p style="font-weight: bold">
 {{--        GeeksforGeeks is a leading platform...--}}
     </p>
@@ -34,7 +34,7 @@
 </section>
 
 <section class="team">
-    <h2>{{__('messages.Մեր Աշխատանքներից')}}</h2>
+    <h2>{{__('messages.fromourworks')}}</h2>
     <div class="team-cards">
 
 

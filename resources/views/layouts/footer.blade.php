@@ -5,7 +5,7 @@
             <div class="col-lg-2">
                 <div class="single-footer-widget">
                     <ul>
-                        <li><a href="/">{{__('messages.Գլխավոր էջ')}}</a></li>
+                        <li><a href="/">{{__('messages.nav.main')}}</a></li>
                         {{--                        <li><a href="https://preview.colorlib.com/theme/taxi/index.html#">Brand Assets</a></li>--}}
                         {{--                        <li><a href="https://preview.colorlib.com/theme/taxi/index.html#">Investor Relations</a></li>--}}
                         {{--                        <li><a href="https://preview.colorlib.com/theme/taxi/index.html#">Terms of Service</a></li>--}}
@@ -15,7 +15,7 @@
             <div class="col-lg-2">
                 <div class="single-footer-widget">
                     <ul>
-                        <li><a href="{{ route('about') }}">{{__('messages.Մեր Մասին')}}</a></li>
+                        <li><a href="{{ route('about') }}">{{__('messages.nav.about')}}</a></li>
                         {{--                        <li><a href="https://preview.colorlib.com/theme/taxi/index.html#">Brand Assets</a></li>--}}
                         {{--                        <li><a href="https://preview.colorlib.com/theme/taxi/index.html#">Investor Relations</a></li>--}}
                         {{--                        <li><a href="https://preview.colorlib.com/theme/taxi/index.html#">Terms of Service</a></li>--}}
@@ -24,12 +24,12 @@
             </div>
             <div class="col-lg-2">
                 <div class="single-footer-widget">
-                     <p><a href="{{ route('service') }}">{{__('messages.Ծառայություններ')}}</a></p>
+                     <p><a href="{{ route('service') }}">{{__('messages.nav.service')}}</a></p>
 
                     <ul class="custom-list">
 {{--                        <li><a href="{{ route('service') }}">{{__('messages.Ծառայություններ')}}</a></li>--}}
-                        <li><a href="{{ route('measurement') }}">{{__('messages.Չափագրում')}}</a></li>
-                        <li><a href="{{ route('consultation') }}">{{__('messages.Խորհրդատվություն')}}</a></li>
+                        <li><a href="{{ route('measurement') }}">{{__('messages.measurement')}}</a></li>
+                        <li><a href="{{ route('consultation') }}">{{__('messages.consultation')}}</a></li>
                     </ul>
                 </div>
             </div>
@@ -37,7 +37,7 @@
                 <div class="single-footer-widget">
                     {{--                    <h6><a href="">{{__('messages.Ծառայություններ')}}</a></h6>--}}
                     <ul>
-                        <li><a href="{{ route('galery') }}">{{__('messages.Մեր Աշխատանքները')}}</a></li>
+                        <li><a href="{{ route('galery') }}">{{__('messages.nav.galery')}}</a></li>
                         {{--                        <li><a href="https://preview.colorlib.com/theme/taxi/index.html#">Research</a></li>--}}
                         {{--                        <li><a href="https://preview.colorlib.com/theme/taxi/index.html#">Experts</a></li>--}}
                         {{--                        <li><a href="https://preview.colorlib.com/theme/taxi/index.html#">Agencies</a></li>--}}
@@ -58,7 +58,7 @@
             {{--            </div>--}}
             <div class="col-lg-2">
                 <div class="single-footer-widget">
-                    <p><a href="{{ route('contactUs') }}">{{__('messages.Կապ')}}</a></p>
+                    <p><a href="{{ route('contactUs') }}">{{__('messages.nav.contactus')}}</a></p>
                     <ul class="custom-list">
                         <li><a href="mailto:{{ config('app.contacts.email') }}">{{ config('app.contacts.email') }}</a>
                         </li>
