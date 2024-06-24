@@ -1,5 +1,4 @@
-
-<link rel="icon" href="{{ asset('doorman.ico') }}" type="image/x-icon">
+@include('layouts.favicon')
 <header id="header">
     <div class="header-top">
     </div>
