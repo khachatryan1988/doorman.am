@@ -5,14 +5,11 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
 <head>
-    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-{{--    <link rel="stylesheet"--}}
-{{--         href="{{ asset('css/about.css') }}">--}}
+    <link rel="icon" href="{{ asset('doorman.ico') }}" type="image/x-icon">
     <title>{{__('messages.nav.about')}}</title>
-
-{{--    <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('apple-touch-icon.png') }}">--}}
 </head>
 
 <body>

@@ -3482,4 +3482,24 @@ body.mobile-nav-active #mobile-nav-toggle {
     margin-bottom: 8px; /* Adjust spacing between list items */
 }
 
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li.active a {
+    font-weight: bold;
+    color: #FDBD1D; /* Example styles for active link */
+}
+
 /*-------- end footer Area -------------*/
