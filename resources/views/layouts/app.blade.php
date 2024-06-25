@@ -7,11 +7,12 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="{{ asset('doorman.ico') }}" type="image/x-icon">
+{{--    <link rel="icon" href="{{ asset('doorman.ico') }}" type="image/x-icon">--}}
     <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
     <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
     <link rel="shortcut icon" href="https://preview.colorlib.com/theme/taxi/img/fav.png">
     <link rel="stylesheet" href="{{ asset('css/swiper-bundle.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/styles.css') }}">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Bootstrap JavaScript and jQuery -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.6/umd/popper.min.js"></script>
@@ -22,6 +23,7 @@
 
     <meta name="keywords" content="">
     <title>{{__('messages.title')}}</title>
+    @include('layouts.favicon')
     <style>
         @include('layouts.css')
     </style>
@@ -30,11 +32,10 @@
     </script>
 </head>
 <body style="display: block;">
-<link rel="stylesheet" href="{{ asset('css/styles.css') }}">
+
 <button type="button" id="mobile-nav-toggle"><i class="lnr lnr-menu"></i></button>
 <header>
     @include('layouts.header')
-{{--    @yield('overlay')--}}
 </header>
 
 
@@ -79,9 +80,9 @@
 
 @include('layouts.script')
 
-<script src="{{ asset('js/main.js') }}"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+{{--<script src="{{ asset('js/main.js') }}"></script>--}}
+{{--<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>--}}
+{{--<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>--}}
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 </body>
 </html>

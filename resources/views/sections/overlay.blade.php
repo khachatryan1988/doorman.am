@@ -1,6 +1,4 @@
-{{--@extends('layouts.app')--}}
 
-{{--@section('overlay')--}}
 <section class="banner-area relative" id="home">
     <div class="swiper-container">
         <div class="swiper-wrapper">
@@ -90,4 +88,4 @@
         },
     });
 </script>
-{{--@endsection--}}
+
