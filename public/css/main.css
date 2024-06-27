@@ -1600,7 +1600,7 @@ h1, h2, h3, h4, h5, h6 {
     display: inline-block;
     color: #fff;
     font-weight: 500;
-    font-size: 12px;
+    /*font-size: 12px;*/
     text-transform: uppercase;
     outline: none;
 }
@@ -3503,3 +3503,10 @@ nav ul li.active a {
 }
 
 /*-------- end footer Area -------------*/
+.inactive {
+    color: #fff;
+    cursor: default;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+

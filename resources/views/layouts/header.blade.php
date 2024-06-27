@@ -7,9 +7,14 @@
             <img src="{{ asset('images/doorman4.png') }}" alt="">
 
             <nav id="nav-menu-container">
-                <ul class="nav-menu sf-js-enabled sf-arrows" style="touch-action: pan-y;">
-                    <li class="{{ request()->routeIs('/') ? 'active' : '' }}">
-                    <a href="/">{{__('messages.nav.main')}}</a></li>
+                <ul class="nav-menu sf-js-enabled sf-arrows">
+                    <li class="{{ request()->is('/') ? 'active' : '' }}">
+                        @if(request()->is('/'))
+                            <span class="inactive">{{ __('messages.nav.main') }}</span>
+                        @else
+                            <a href="{{ url('/') }}">{{ __('messages.nav.main') }}</a>
+                        @endif
+                    </li>
                     <li class="{{ request()->routeIs('about') ? 'active' : '' }}">
                         <a href="{{ route('about') }}">{{__('messages.nav.about')}}</a></li>
                     <li class="{{ request()->routeIs('service') ? 'active' : '' }}">
