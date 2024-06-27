@@ -4,7 +4,7 @@
     </div>
     <div class="container main-menu">
         <div class="row align-items-center justify-content-between d-flex">
-            <a href="/"><img src="{{ asset('images/doorman4.png') }}" alt=""></a>
+            <a href=""><img src="{{ asset('images/doorman4.png') }}" alt=""></a>
 
             <nav id="nav-menu-container">
                 <ul class="nav-menu sf-js-enabled sf-arrows" style="touch-action: pan-y;">
