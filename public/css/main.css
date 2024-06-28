@@ -1524,6 +1524,7 @@ h1, h2, h3, h4, h5, h6 {
     #header #logo h1 {
         font-size: 28px;
     }
+
     #header #logo img {
         max-height: 40px;
     }
@@ -1608,9 +1609,11 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu > li {
     margin-left: 10px;
 }
+
 .nav-menu a:hover {
     color: #FDBD1D !important;
 }
+
 .row h3:hover {
     color: #FDBD1D !important;
 }
@@ -1668,6 +1671,7 @@ h1, h2, h3, h4, h5, h6 {
     #mobile-nav-toggle {
         display: inline;
     }
+
     #nav-menu-container {
         display: none;
     }
@@ -1766,6 +1770,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .section-gap {
     padding: 50px 0;
 }
+
 .pb-150 {
     padding-bottom: 46px;
     padding-top: 0px;
@@ -1852,6 +1857,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     margin-right: auto;
     margin-bottom: 80px;
 }
+
 .section-title_service {
     padding-top: 115px;
     text-align: center;
@@ -1865,6 +1871,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     margin-bottom: 10px;
 
 }
+
 @media (max-width: 767px) {
     .section-title h1 {
         margin-bottom: 10px;
@@ -1878,6 +1885,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     /*background-image: url(../images/daspas.jpg);*/
     /*background-size: cover;*/
 }
+
 /*.swiper-slide {*/
 /*    !*background-image: url(../images/door.jpg);*!*/
 /*    !*background-image: url(../images/daspas.jpg);*!*/
@@ -1891,16 +1899,19 @@ body.mobile-nav-active #mobile-nav-toggle {
     background-position: center;
     background-attachment: fixed;
 }
+
 .swiper-container {
     margin: 0;
     padding: 0;
     overflow: hidden; /* Prevent content from overflowing */
 }
+
 .swiper-container {
     width: 100%; /* Adjust width as needed */
     height: 100%; /* Set a fixed height to prevent scrolling */
     /* Add other necessary styles */
 }
+
 .swiper-slide {
     background-size: cover;
     /*background-position: center;*/
@@ -2194,8 +2205,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 /*-------- Start review Area -------------*/
 .reviews-area .single-review {
     text-align: center;
-    background-color: #f9f9ff;
-    padding: 9px;
+    /*background-color: #f9f9ff;*/
+    /*padding: 9px;*/
     margin-bottom: 30px;
     -webkit-transition: all 0.3s ease 0s;
     -moz-transition: all 0.3s ease 0s;
@@ -2212,7 +2223,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .reviews-area .single-review:hover {
-    background-color: #FDBD1D;
+    /*background-color: #FDBD1D;*/
     cursor: pointer;
 }
 
@@ -2539,7 +2550,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .post-content-area .single-post .date a:hover,
 .post-content-area .single-post .view a:hover,
 .post-content-area .single-post .comments a:hover {
-    color:#FDBD1D;
+    color: #FDBD1D;
 }
 
 .post-content-area .single-post .user-name .lnr,
@@ -3103,9 +3114,11 @@ body.mobile-nav-active #mobile-nav-toggle {
     .comments-area .comment-list .single-comment h5 {
         font-size: 12px;
     }
+
     .comments-area .comment-list .single-comment .date {
         font-size: 11px;
     }
+
     .comments-area .comment-list .single-comment .comment {
         font-size: 10px;
     }
@@ -3368,10 +3381,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 .single-footer-widget ul li a:hover {
     color: #FDBD1D;
 }
+
 .nav-menu-container h3 ul li a:hover {
     color: #FDBD1D;
 }
-
 
 
 .single-footer-widget .info {
@@ -3473,6 +3486,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     bottom: 0px;
     width: 100%;
 }
+
 .custom-list {
     list-style-type: disc; /* Use disc for filled circles */
     padding-left: 20px; /* Adjust left padding for space between bullet and text */
@@ -3510,3 +3524,48 @@ nav ul li.active a {
     text-transform: uppercase;
 }
 
+.part_section {
+    margin-bottom: 25px;
+    cursor: default;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.part_section img {
+    margin-left: 25px;
+    /*width: 150px;*/
+    height: 150px;
+    object-fit: cover;
+}
+
+swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+swiper-slide {
+    text-align: center;
+    /*font-size: 18px;*/
+    background: #fff;
+    display: flex;
+    /*justify-content: center;*/
+    align-items: center;
+}
+
+swiper-slide img {
+    display: block;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    margin-right: 30px;
+}
+
+swiper-slide {
+    width: 30%;
+}
+
+.image-frame {
+    border: 5px solid #6c757d; /* Black border */
+    padding: 5px; /* Optional: Add some padding for visual effect */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for depth */
+}
