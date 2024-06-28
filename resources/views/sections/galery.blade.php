@@ -39,8 +39,8 @@
             </swiper-slide>
             <swiper-slide>
                 <img class="image-frame" src="{{ asset('images/rf.jpg') }}" alt="">
+            </swiper-slide>
         </swiper-container>
-        </swiper-slide>
-        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+
     </div>
 </section>

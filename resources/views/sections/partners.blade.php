@@ -7,7 +7,7 @@
             <div class="single-review">
                 <swiper-container class="mySwiper" space-between="30" slides-per-view="auto" pagination="true"
                                   pagination-clickable="true" autoplay-delay="2500"
-                                  autoplay-disable-on-interaction="false">
+                                  autoplay-disable-on-interaction="false" swiper-pagination-bullets="false">
                     <swiper-slide><img src="images/domus.svg"></swiper-slide>
                     <swiper-slide><img src="images/decora.svg"></swiper-slide>
                     <swiper-slide><img src="images/atenk.svg"></swiper-slide>
@@ -18,7 +18,7 @@
                     <swiper-slide><img src="images/bplan.svg"></swiper-slide>
                 </swiper-container>
             </div>
-            <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+            <script src="{{ asset('js/swiperslider.js') }}"></script>
         </div>
     </div>
 </section>
