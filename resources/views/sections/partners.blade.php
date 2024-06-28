@@ -1,140 +1,24 @@
-<section class="reviews-area" style="background-color: rgba(234,238,241,0.76)">
+<section class="reviews-area">
     <div class="container">
-        <div class="row section-title" >
+        <div class="row section-title">
             <h1>{{__('messages.partners')}}</h1>
-{{--            <p>Who are in extremely love with eco friendly system.</p>--}}
         </div>
-        <div class="row">
-            <div class="col-lg-3 col-md-6">
-
-                <div class="single-review">
-                    <img src="images/domus.svg" style="background-size: 100%; width: 280px; height: 106px;" >
-{{--                    <h4>Cody Hines</h4>--}}
-
-{{--                    <p>--}}
-{{--                        Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker.--}}
-{{--                    </p>--}}
-{{--                    <div class="star">--}}
-{{--                        <span class="fa fa-star checked"></span>--}}
-{{--                        <span class="fa fa-star checked"></span>--}}
-{{--                        <span class="fa fa-star checked"></span>--}}
-{{--                        <span class="fa fa-star"></span>--}}
-{{--                        <span class="fa fa-star"></span>--}}
-{{--                    </div>--}}
-                </div>
+        <div class="part_section">
+            <div class="single-review">
+                <swiper-container class="mySwiper" space-between="30" slides-per-view="auto" pagination="true"
+                                  pagination-clickable="true" autoplay-delay="2500"
+                                  autoplay-disable-on-interaction="false" swiper-pagination-bullets="false">
+                    <swiper-slide><img src="images/domus.svg"></swiper-slide>
+                    <swiper-slide><img src="images/decora.svg"></swiper-slide>
+                    <swiper-slide><img src="images/atenk.svg"></swiper-slide>
+                    <swiper-slide><img src="images/sis.svg"></swiper-slide>
+                    <swiper-slide><img src="images/capital.svg"></swiper-slide>
+                    <swiper-slide><img src="images/jermuk.svg"></swiper-slide>
+                    <swiper-slide><img src="images/noyan.svg"></swiper-slide>
+                    <swiper-slide><img src="images/bplan.svg"></swiper-slide>
+                </swiper-container>
             </div>
-            <div class="col-lg-3 col-md-6">
-                <div class="single-review">
-                    <img src="images/decora.svg" style="background-size: 100%; width: 280px; height: 106px;" >
-{{--                    <h4>Chad Herrera</h4>--}}
-{{--                    <p>--}}
-{{--                        Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker.--}}
-{{--                    </p>--}}
-{{--                    <div class="star">--}}
-{{--                        <span class="fa fa-star checked"></span>--}}
-{{--                        <span class="fa fa-star checked"></span>--}}
-{{--                        <span class="fa fa-star checked"></span>--}}
-{{--                        <span class="fa fa-star"></span>--}}
-{{--                        <span class="fa fa-star"></span>--}}
-{{--                    </div>--}}
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6">
-                <div class="single-review">
-                    <img src="images/atenk.svg" style="background-size: 100%; width: 280px; height: 106px;" >
-{{--                    <h4>Andre Gonzalez</h4>--}}
-{{--                    <p>--}}
-{{--                        Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker.--}}
-{{--                    </p>--}}
-{{--                    <div class="star">--}}
-{{--                        <span class="fa fa-star checked"></span>--}}
-{{--                        <span class="fa fa-star checked"></span>--}}
-{{--                        <span class="fa fa-star checked"></span>--}}
-{{--                        <span class="fa fa-star"></span>--}}
-{{--                        <span class="fa fa-star"></span>--}}
-{{--                    </div>--}}
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6">
-                <div class="single-review">
-                    <img src="images/sis.svg" style="background-size: 100%; width: 280px; height: 106px;" >
-{{--                    <h4>Jon Banks</h4>--}}
-{{--                    <p>--}}
-{{--                        Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker.--}}
-{{--                    </p>--}}
-{{--                    <div class="star">--}}
-{{--                        <span class="fa fa-star checked"></span>--}}
-{{--                        <span class="fa fa-star checked"></span>--}}
-{{--                        <span class="fa fa-star checked"></span>--}}
-{{--                        <span class="fa fa-star"></span>--}}
-{{--                        <span class="fa fa-star"></span>--}}
-{{--                    </div>--}}
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6">
-                <div class="single-review">
-                    <img src="images/capital.svg" style="background-size: 100%; width: 280px; height: 106px;" >
-{{--                    <h4>Landon Houston</h4>--}}
-{{--                    <p>--}}
-{{--                        Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker.--}}
-{{--                    </p>--}}
-{{--                    <div class="star">--}}
-{{--                        <span class="fa fa-star checked"></span>--}}
-{{--                        <span class="fa fa-star checked"></span>--}}
-{{--                        <span class="fa fa-star checked"></span>--}}
-{{--                        <span class="fa fa-star"></span>--}}
-{{--                        <span class="fa fa-star"></span>--}}
-{{--                    </div>--}}
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6">
-                <div class="single-review">
-                    <img src="images/jermuk.svg" style="background-size: 100%; width: 280px; height: 106px;" >
-{{--                    <h4>Nelle Wade</h4>--}}
-{{--                    <p>--}}
-{{--                        Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker.--}}
-{{--                    </p>--}}
-{{--                    <div class="star">--}}
-{{--                        <span class="fa fa-star checked"></span>--}}
-{{--                        <span class="fa fa-star checked"></span>--}}
-{{--                        <span class="fa fa-star checked"></span>--}}
-{{--                        <span class="fa fa-star"></span>--}}
-{{--                        <span class="fa fa-star"></span>--}}
-{{--                    </div>--}}
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6">
-                <div class="single-review">
-                    <img src="images/noyan.svg" style="background-size: 100%; width: 280px; height: 106px;" >
-                    {{--                    <h4>Nelle Wade</h4>--}}
-                    {{--                    <p>--}}
-                    {{--                        Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker.--}}
-                    {{--                    </p>--}}
-                    {{--                    <div class="star">--}}
-                    {{--                        <span class="fa fa-star checked"></span>--}}
-                    {{--                        <span class="fa fa-star checked"></span>--}}
-                    {{--                        <span class="fa fa-star checked"></span>--}}
-                    {{--                        <span class="fa fa-star"></span>--}}
-                    {{--                        <span class="fa fa-star"></span>--}}
-                    {{--                    </div>--}}
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6">
-                <div class="single-review">
-                    <img src="images/bplan.svg" style="background-size: 100%; width: 280px; height: 106px;" >
-                    {{--                    <h4>Nelle Wade</h4>--}}
-                    {{--                    <p>--}}
-                    {{--                        Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker.--}}
-                    {{--                    </p>--}}
-                    {{--                    <div class="star">--}}
-                    {{--                        <span class="fa fa-star checked"></span>--}}
-                    {{--                        <span class="fa fa-star checked"></span>--}}
-                    {{--                        <span class="fa fa-star checked"></span>--}}
-                    {{--                        <span class="fa fa-star"></span>--}}
-                    {{--                        <span class="fa fa-star"></span>--}}
-                    {{--                    </div>--}}
-                </div>
-            </div>
+            <script src="{{ asset('js/swiperslider.js') }}"></script>
         </div>
     </div>
 </section>
