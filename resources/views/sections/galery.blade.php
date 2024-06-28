@@ -3,7 +3,7 @@
         <div class="row section-title">
             <h1>{{__('messages.nav.galery')}}</h1>
         </div>
-        <swiper-container class="mySwiper" space-between="30" slides-per-view="auto" pagination="true" pagination-clickable="true" autoplay-delay="2500" autoplay-disable-on-interaction="false">
+        <swiper-container class="mySwiper" space-between="45" slides-per-view="auto" pagination="true" pagination-clickable="true" autoplay-delay="2500" autoplay-disable-on-interaction="false">
             <swiper-slide>
                 <img class="image-frame" src="{{ asset('images/92d99760-14d2-45be-b2d9-8c9a81fa4c11.jpg') }}" alt="">
             </swiper-slide>
