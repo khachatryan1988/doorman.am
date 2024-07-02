@@ -1,5 +1,6 @@
 @include('layouts.header')
 @include('layouts.css')
+@include('layouts.script')
 <title>{{__('messages.nav.galery')}}</title>
 <section class="image-gallery-area section-gap">
     <div class="container">
