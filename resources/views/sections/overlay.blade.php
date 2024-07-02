@@ -2,7 +2,7 @@
 <section class="banner-area relative" id="home">
     <div class="swiper-container">
         <div class="swiper-wrapper">
-            <div class="swiper-slide">
+            <div class="swiper-slide" style="background-image: url('{{ asset("images/door-1.jpg") }}');">
                 <div class="overlay overlay-bg"></div>
                 <div class="container">
                     <div class="row fullscreen d-flex align-items-center justify-content-between">
@@ -16,7 +16,7 @@
                     </div>
                 </div>
             </div>
-            <div class="swiper-slide">
+            <div class="swiper-slide" style="background-image: url('{{ asset("images/e0e3acc7-f2d5-445b-8077-77ce62151d2f.jpg") }}');">
                 <div class="overlay overlay-bg"></div>
                 <div class="container">
                     <div class="row fullscreen d-flex align-items-center justify-content-between">
@@ -26,11 +26,12 @@
                                 <a href="tel:{{ config('app.contacts.phone_number') }}">{{ config('app.contacts.phone_number') }}</a>
                             </h1>
                             <a href="/contactUs" class="primary-btn text-uppercase">{{__('messages.writeus')}}</a>
+
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="swiper-slide">
+            <div class="swiper-slide" style="background-image: url('{{ asset("images/daspas-1.jpeg") }}');">
                 <div class="overlay overlay-bg"></div>
                 <div class="container">
                     <div class="row fullscreen d-flex align-items-center justify-content-between">
@@ -54,23 +55,7 @@
     </div>
 </section>
 
-<style>
-
-
-    .swiper-slide:nth-child(3n+1) {
-        background-image: url('{{ asset("images/door-1.jpg") }}');
-    }
-
-    .swiper-slide:nth-child(3n+2) {
-        background-image: url('{{ asset("images/daspas-1.jpeg") }}');
-    }
-
-    .swiper-slide:nth-child(3n+3) {
-        background-image: url('{{ asset("images/e0e3acc7-f2d5-445b-8077-77ce62151d2f.jpg") }}');
-    }
-</style>
-
-<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="{{ asset('js/swiper-bundle.min.js') }}"></script>
 <script>
     var swiper = new Swiper('.swiper-container', {
         loop: false,

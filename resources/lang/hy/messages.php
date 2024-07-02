@@ -14,7 +14,7 @@ return [
 		'contactus'	=>	'Կապ',
         'feadback' => 'Հետադարձ կապ',
 	],
-	'title'	=> 'Դոռման',
+	'title'	=> 'Դորման',
     'measurement' => 'Չափագրում',
     'consultation' => 'Խորհրդատվություն',
     'forquestions' => 'Հարցերի դեպքում զանգահարեք',

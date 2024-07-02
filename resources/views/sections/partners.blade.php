@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <div class="slider-wrapper">
         <!-- Swiper Container -->
-        <div class="swiper mySwiper">
+        <div class="swiper mySwiper" style="max-width: 1294px;">
             <div class="swiper-wrapper">
                 <div class="swiper-slide"><img src="{{ asset('images/domus.svg') }}"></div>
                 <div class="swiper-slide"><img src="{{ asset('images/decora.svg') }}"></div>
@@ -34,7 +34,7 @@
             slidesPerView: 5,
             breakpoints: {
                 320: {
-                    slidesPerView: 1,
+                    slidesPerView: 2,
                     spaceBetween: 10
                 },
                 480: {
