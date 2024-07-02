@@ -1,6 +1,6 @@
 @extends('pages.service')
 @include('layouts.css')
-
+@include('layouts.script')
 @section('service')
 <section class="banner-area relative about-banner" id="home">
     <div class="overlay overlay-bg"></div>

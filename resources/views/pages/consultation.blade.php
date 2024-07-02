@@ -1,5 +1,6 @@
 @include('layouts.header')
 @include('layouts.css')
+@include('layouts.script')
     <!DOCTYPE html>
 <html>
 
