@@ -4,7 +4,9 @@
     </div>
     <div class="container main-menu">
         <div class="row align-items-center justify-content-between d-flex">
-            <img src="{{ asset('images/doorman4.png') }}" alt="">
+            <div>
+                <img src="{{ asset('images/doorman4.png') }}" alt="">
+            </div>
 
             <nav id="nav-menu-container">
                 <ul class="nav-menu sf-js-enabled sf-arrows">
