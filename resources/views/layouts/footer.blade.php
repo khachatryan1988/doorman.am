@@ -77,7 +77,7 @@
             </p>
         </div>
     </div>
-    <img class="footer-bottom" src="{{ asset('images/footer-bottom.png') }}" alt="">
+{{--    <img class="footer-bottom" src="{{ asset('images/footer-bottom.png') }}" alt="">--}}
 </footer>
 
 

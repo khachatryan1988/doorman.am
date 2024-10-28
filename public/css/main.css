@@ -1427,7 +1427,7 @@ h1, h2, h3, h4, h5, h6 {
 /*  Menu Styles
 /* =================================== */
 .header-top {
-    background: url("../build/assets/menu-top.png");
+    /*background: url("../build/assets/menu-top.png");*/
     background-size: cover;
     height: 20px;
     -webkit-transition: all 0.3s ease 0s;
