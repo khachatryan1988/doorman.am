@@ -48,7 +48,7 @@ $black			: #222;
 /* =================================== */
 
 .metrica-style-container {
-    background: #ffffff;
+    /*background: #ffffff;*/
     border: 2px solid #e0e0e0;
     padding: 25px;
     max-width: 450px;
