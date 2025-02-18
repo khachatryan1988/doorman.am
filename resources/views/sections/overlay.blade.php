@@ -1,4 +1,3 @@
-
 <section class="banner-area relative" id="home">
     <div class="swiper-container">
         <div class="swiper-wrapper">
@@ -13,6 +12,27 @@
                             </h1>
                             <a href="/contactUs" class="primary-btn text-uppercase">{{__('messages.writeus')}}</a>
                         </div>
+                        <!-- Square Meter Calculation Form -->
+                        <div class="metrica-style-container">
+                            <strong><h2 style="font-size: 20px;">Հաշվել Դարպասի Արժեքը</h2></strong>
+                            <form action="{{ route('calculate.m2') }}" method="POST">
+                                @csrf
+                                <label for="width">Լայնություն (մ):</label>
+                                <input type="number" name="width" id="width" step="0.01" required>
+                                <label for="height">Բարձրություն (մ):</label>
+                                <input type="number" name="height" id="height" step="0.01" required>
+                                <div class="button-container">
+                                    <button type="submit">Հաշվել</button>
+                                </div>
+                            </form>
+                            @if(session('result'))
+                                <div class="result-box">
+                                    <p>Քառակուսի մետր: <span>{{ session('result') }} մ²</span></p>
+                                    <p>Ընդհանուր արժեքը: <span style="color: green;">{{ session('price') }} դրամ</span></p>
+                                    <p style="color: red;">Ուշադրություն: <span style="color: red; font-size: 14px;">Հաշվարկված գինը հանդիսանում է մոտավոր արժեք։ Ավելի մանրամասն տեղեկուտյուն ստանալու համար զանգահարել <a href="tel:{{ config('app.contacts.phone_number') }}">{{ config('app.contacts.phone_number') }}</a> հեռախոսահամարով</span></p>
+                                </div>
+                            @endif
+                        </div>
                     </div>
                 </div>
             </div>
@@ -26,7 +46,27 @@
                                 <a href="tel:{{ config('app.contacts.phone_number') }}">{{ config('app.contacts.phone_number') }}</a>
                             </h1>
                             <a href="/contactUs" class="primary-btn text-uppercase">{{__('messages.writeus')}}</a>
-
+                        </div>
+                        <!-- Square Meter Calculation Form -->
+                        <div class="metrica-style-container">
+                            <strong><h2 style="font-size: 20px;">Հաշվել Դարպասի Արժեքը</h2></strong>
+                            <form action="{{ route('calculate.m2') }}" method="POST">
+                                @csrf
+                                <label for="width">Լայնություն (մ):</label>
+                                <input type="number" name="width" id="width" step="0.01" required>
+                                <label for="height">Բարձրություն (մ):</label>
+                                <input type="number" name="height" id="height" step="0.01" required>
+                                <div class="button-container">
+                                    <button type="submit">Հաշվել</button>
+                                </div>
+                            </form>
+                            @if(session('result'))
+                                <div class="result-box">
+                                    <p>Քառակուսի մետր: <span>{{ session('result') }} մ²</span></p>
+                                    <p>Ընդհանուր արժեքը: <span style="color: green;">{{ session('price') }} դրամ</span></p>
+                                    <p style="color: red;">Ուշադրություն: <span style="color: red; font-size: 14px;">Հաշվարկված գինը հանդիսանում է մոտավոր արժեք։ Ավելի մանրամասն տեղեկուտյուն ստանալու համար զանգահարել <a href="tel:{{ config('app.contacts.phone_number') }}">{{ config('app.contacts.phone_number') }}</a> հեռախոսահամարով</span></p>
+                                </div>
+                            @endif
                         </div>
                     </div>
                 </div>
@@ -42,16 +82,32 @@
                             </h1>
                             <a href="/contactUs" class="primary-btn text-uppercase">{{__('messages.writeus')}}</a>
                         </div>
+                        <!-- Square Meter Calculation Form -->
+                        <div class="metrica-style-container">
+                            <strong><h2 style="font-size: 20px;">Հաշվել Դարպասի Արժեքը</h2></strong>
+                            <form action="{{ route('calculate.m2') }}" method="POST">
+                                @csrf
+                                <label for="width">Լայնություն (մ):</label>
+                                <input type="number" name="width" id="width" step="0.01" required>
+                                <label for="height">Բարձրություն (մ):</label>
+                                <input type="number" name="height" id="height" step="0.01" required>
+                                <div class="button-container">
+                                    <button type="submit">Հաշվել</button>
+                                </div>
+                            </form>
+                            @if(session('result'))
+                                <div class="result-box">
+                                    <p>Քառակուսի մետր: <span>{{ session('result') }} մ²</span></p>
+                                    <p>Ընդհանուր արժեքը: <span style="color: green;">{{ session('price') }} դրամ</span></p>
+                                    <p style="color: red;">Ուշադրություն: <span style="color: red; font-size: 14px;">Հաշվարկված գինը հանդիսանում է մոտավոր արժեք։ Ավելի մանրամասն տեղեկուտյուն ստանալու համար զանգահարել <a href="tel:{{ config('app.contacts.phone_number') }}">{{ config('app.contacts.phone_number') }}</a> հեռախոսահամարով</span></p>
+                                </div>
+                            @endif
+                        </div>
                     </div>
                 </div>
             </div>
-            <!-- Add more slides as needed -->
         </div>
-        <!-- Add pagination -->
         <div class="swiper-pagination"></div>
-        <!-- Add navigation buttons -->
-{{--        <div class="swiper-button-prev"></div>--}}
-{{--        <div class="swiper-button-next"></div>--}}
     </div>
 </section>
 
@@ -60,7 +116,7 @@
     var swiper = new Swiper('.swiper-container', {
         loop: false,
         autoplay: {
-            delay: 3000,
+            delay: 10000,
             disableOnInteraction: false,
         },
         // navigation: {
