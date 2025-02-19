@@ -33,18 +33,18 @@
     <!-- Square Meter Calculation Form -->
     <div class="metrica-style-container">
         <strong><h2 style="font-size: 20px;">Հաշվել Դարպասի Արժեքը</h2></strong>
-{{--        <form action="{{ route('calculate.m2') }}" method="POST">--}}
-{{--            @csrf--}}
-{{--            <label for="width">Լայնություն (մ):</label>--}}
-{{--            <input type="number" name="width" id="width" step="0.01" required>--}}
+        <form action="{{ route('calculate.m2') }}" method="POST">
+            @csrf
+            <label for="width">Լայնություն (մ):</label>
+            <input type="number" name="width" id="width" step="0.01" required>
 
-{{--            <label for="height">Բարձրություն (մ):</label>--}}
-{{--            <input type="number" name="height" id="height" step="0.01" required>--}}
+            <label for="height">Բարձրություն (մ):</label>
+            <input type="number" name="height" id="height" step="0.01" required>
 
-{{--            <div class="button-container">--}}
-{{--                <button type="submit">Հաշվել</button>--}}
-{{--            </div>--}}
-{{--        </form>--}}
+            <div class="button-container">
+                <button type="submit">Հաշվել</button>
+            </div>
+        </form>
 
         @if(session('result'))
             <div class="result-box">
