@@ -34,18 +34,18 @@ Route::middleware(\App\Http\Middleware\Localization::class)
         Route::get('/consultation', [\App\Http\Controllers\ConsultationController::class, 'index'])->name('consultation');
 //        Route::get('/new', [\App\Http\Controllers\ConsultationController::class, 'new'])->name('new');
     });
-Route::post('/calculate-m2', function (Request $request) {
-    $width = $request->input('width');
-    $height = $request->input('height');
-
-    $area = $width * $height;
-    $price_per_m2 = 5000; // 100 dram per m²
-    $total_price = $area * $price_per_m2;
-
-    return redirect()->back()->with([
-        'result' => number_format($area, 2),
-        'price' => number_format($total_price, 0)
-    ]);
-})->name('calculate.m2');
+//Route::post('/calculate-m2', function (Request $request) {
+//    $width = $request->input('width');
+//    $height = $request->input('height');
+//
+//    $area = $width * $height;
+//    $price_per_m2 = 5000; // 100 dram per m²
+//    $total_price = $area * $price_per_m2;
+//
+//    return redirect()->back()->with([
+//        'result' => number_format($area, 2),
+//        'price' => number_format($total_price, 0)
+//    ]);
+//})->name('calculate.m2');
 
 
