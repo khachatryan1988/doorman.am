@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Http\Request;
+use App\Http\Controllers\Auth\LoginController;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,6 +18,10 @@ use Illuminate\Http\Request;
 //Route::get('/', function () {
 //    return view('layouts.app');
 //});
+
+Route::get('/login', [LoginController::class, 'showLoginForm'])->name('login');
+Route::post('/login', [LoginController::class, 'login']);
+Route::post('/logout', [LoginController::class, 'logout'])->name('logout');
 
 
 Route::get('/localization/{locale}', \App\Http\Controllers\Localization::class)->name('localization');
@@ -47,5 +52,14 @@ Route::post('/calculate-m2', function (Request $request) {
         'price' => number_format($total_price, 0)
     ]);
 })->name('calculate.m2');
+
+
+Route::middleware(['auth', 'admin'])->group(function () {
+    Route::get('/admin', function () {
+        return view('admin.dashboard');
+    });
+});
+
+
 
 
